@@ -18,4 +18,5 @@ fivews.Join("unable to write the contents", cause1, cause2)
 ## TODO
 
 * add tests
+* add interface for contextual information
 * fix stacktrace
