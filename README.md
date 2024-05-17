@@ -1,4 +1,4 @@
-# [WIP] Five Ws
+# Five Ws
 
 You MUST always write error messages as literal everywhere.
 You SHOULD write error message contains ["Five Ws"](https://en.wikipedia.org/wiki/Five_Ws) to clarify the condition.
@@ -15,8 +15,3 @@ fivews.Wrap("unable to write the contents", err) // this.Error() returns "unable
 fivews.Join("unable to write the contents", cause1, cause2)
 ```
 
-## TODO
-
-* add tests
-* add interface for contextual information
-* fix stacktrace
